@@ -3,3 +3,4 @@
 ## Název hry: Backrooms puzzle game
 ### Popis:
 Jde o pár scén, které vás provedou světem Backrooms.
+#### Hra je v anglickém jazyku
