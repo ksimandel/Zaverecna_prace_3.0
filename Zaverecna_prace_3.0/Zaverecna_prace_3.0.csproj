@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Zaverecna_prace_3._0</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\60ae0aefdfbdb915ec71b474ca68b4e953a622b8_2_1024x562.jpeg" />
+    <None Remove="Images\flashlight_location.jpg" />
+    <None Remove="Images\letter.png" />
+    <None Remove="Images\Level_0_The_Lobby.png" />
+    <None Remove="Images\Level_0_The_Lobby.webp" />
+    <None Remove="Images\menu_bg.png" />
+    <None Remove="Images\new_game.png" />
+    <None Remove="Images\poolrooms_numbers.png" />
+    <None Remove="Images\safe_scene.png" />
+    <None Remove="Images\start_game.png" />
+    <None Remove="Images\tobecontinued.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\flashlight.png" />
+    <Resource Include="Images\60ae0aefdfbdb915ec71b474ca68b4e953a622b8_2_1024x562.jpeg" />
+    <Resource Include="Images\flashlight_location.jpg" />
+    <Resource Include="Images\letter.png" />
+    <Resource Include="Images\Level_0_The_Lobby.png" />
+    <Resource Include="Images\menu_bg.png" />
+    <Resource Include="Images\poolrooms_numbers.png" />
+    <Resource Include="Images\safe_scene.png" />
+    <Resource Include="Images\start_game.png" />
+    <Resource Include="Images\tobecontinued.png" />
+  </ItemGroup>
+
+</Project>
