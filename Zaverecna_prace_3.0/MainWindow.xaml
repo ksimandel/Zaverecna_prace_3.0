@@ -7,7 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920" WindowState="Maximized" MouseDown="Window_MouseDown" Background="Black"> 
 
-<Viewbox Stretch="Uniform">
     <Grid x:Name="MainGrid" Opacity="1">
         
         <Image x:Name="SceneBackground"
@@ -63,10 +62,6 @@ Visibility="Collapsed">
             </StackPanel>
         </Border>
 
-
-
-
     </Grid>
 
-</Viewbox>
 </Window>
