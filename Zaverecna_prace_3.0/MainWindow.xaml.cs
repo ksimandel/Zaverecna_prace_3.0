@@ -207,7 +207,7 @@ namespace Zaverecna_prace_3._0
                 BackgroundImage = new BitmapImage(
                     new Uri("pack://application:,,,/Images/60ae0aefdfbdb915ec71b474ca68b4e953a622b8_2_1024x562.jpeg")),
                 
-                NextSceneAfterDialogue = null // no auto switch
+                NextSceneAfterDialogue = null 
                 
             };
 
@@ -262,7 +262,7 @@ namespace Zaverecna_prace_3._0
                 BackgroundImage = new BitmapImage(
                     new Uri("pack://application:,,,/Images/poolrooms_numbers.png")),
 
-                NextSceneAfterDialogue = null // no auto switch
+                NextSceneAfterDialogue = null 
 
             };
 
@@ -316,11 +316,11 @@ namespace Zaverecna_prace_3._0
             {
                 Content = "ENTER CODE",
                 HoverText = "Try to open the lock...",
-                X = 860,   // Positions the button near the middle-bottom of the safe panel
+                X = 860,   
                 Y = 800,
                 Width = 200,
                 Height = 50,
-                TargetSceneId = "" // We leave this blank because we handle the transition via code manually below
+                TargetSceneId = "" 
             });
 
             var tobecontinued = new Scene
